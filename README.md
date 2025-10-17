@@ -13,19 +13,19 @@ If you want to use Gemini Selfbot in another language, you can contribute by cre
 Your contribution will help making Gemini Selfbot accessible to more users worldwide!
 
 ## Project Structure
-`
-my-project/
+```
+GeminiSelfbot/
 │
 ├─ node_modules/
 ├─ package.json
 ├─ package-lock.json
 └─ index.js
-`
+```
 
 ## Package Installation
 The JavaScript code already does package checking and installs them  if they are not installed. But if you want the manuel installation, run these:
 ```
-npm i chalk discord.js-selfbot-v13
+npm i chalk discord.js-selfbot-v13 debug
 ```
 
 ## Deepseek, ChatGPT etc. Selfbot
