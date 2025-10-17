@@ -1,5 +1,5 @@
 const { execSync } = require("child_process");
-const packages = ["chalk", "discord.js-selfbot-v13"];
+const packages = ["chalk", "discord.js-selfbot-v13", "debug"];
 
 console.log("Checking packages...");
 
