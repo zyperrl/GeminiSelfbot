@@ -19,7 +19,7 @@ GeminiSelfbot/
 ├─ node_modules/
 ├─ package.json
 ├─ package-lock.json
-└─ index.js
+└─ main.js
 ```
 
 ## Package Installation
