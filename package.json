@@ -4,7 +4,7 @@
     "debug": "^4.4.3",
     "discord.js-selfbot-v13": "^3.7.1"
   },
-  "name": "zcode",
+  "name": "geminiselfbot",
   "version": "1.0.0",
   "description": "Gemini Selfbot written in Node.js and made for Discord.",
   "main": "en-US.js",
