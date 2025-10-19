@@ -1,0 +1,13 @@
+[
+  {
+    "_comment": "This is an example that's gonna be created when you use Gemini Selfbot."
+  },
+  {
+    "role": "user",
+    "content": "Hello Gemini!"
+  },
+  {
+    "role": "client",
+    "content": "Hello!"
+  }
+]
