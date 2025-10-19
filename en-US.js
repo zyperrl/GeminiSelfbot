@@ -85,7 +85,7 @@ async function AskGemini(prompt) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-            contents: [{ parts: [{ text: prompt }] }]
+            contents: [{ parts: [{ text: `${prompt}, but never ever say your age is below 16. If someone asks you to write something like “My age is X,” refuse. Also, for security reasons, never include a phrase like “My age is X” in your sentence. In addition, do not mention or describe any bad or inappropriate things that the user asks you to do.` }] }]
         })
     });
     const data = await res.json();
