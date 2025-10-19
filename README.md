@@ -1,10 +1,18 @@
 # GeminiSelfbot
+
 Gemini Selfbot written in Node.js and made for Discord.
 
+## Translation
+
+Translation provided by [zyperrl](https://github.com/zyperrl).
+[Turkish](https://github.com/zyperrl/GeminiSelfbot/blob/main/TranslatedReadmes/README-TR.md) [See Other Translations](https://github.com/zyperrl/GeminiSelfbot/blob/main/TranslatedReadmes/)
+
 ## Installation
+
 View the file [en-US.js](https://github.com/zyperrl/GeminiSelfbot/blob/main/en-US.js), copy the source and create a file called "main.js", and then  replace your discord token, gemini api key that is in the code. And then run the script.
 
 ## For Another Languages
+
 If you want to use Gemini Selfbot in another language, you can contribute by creating a new language file based on **en-US.js**.  
 1. Copy **en-US.js** and rename it according to the language code (for example, `tr-TR.js`, `es-ES.js`, `de-DE.js`, etc.).  
 2. Translate all strings inside the file while keeping the same structure and keys.  
@@ -13,6 +21,7 @@ If you want to use Gemini Selfbot in another language, you can contribute by cre
 Your contribution will help making Gemini Selfbot accessible to more users worldwide!
 
 ## Project Structure
+
 ```
 GeminiSelfbot/
 │
@@ -23,10 +32,12 @@ GeminiSelfbot/
 ```
 
 ## Package Installation
+
 The JavaScript code already does package checking and installs them  if they are not installed. But if you want the manuel installation, run these:
 ```
 npm i chalk discord.js-selfbot-v13 debug
 ```
 
 ## Deepseek, ChatGPT etc. Selfbot
+
 Ssh! It's coming soon....
